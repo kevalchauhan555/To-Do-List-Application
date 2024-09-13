@@ -1,0 +1,3 @@
+"I have developed a To-Do List application using HTML, CSS, JavaScript, EJS, Node.js, Express.js, RESTful APIs, and MongoDB.
+This application allows users to seamlessly manage their tasks by adding, editing, and deleting tasks. It features a user-friendly interface for task management, ensuring efficient organization and productivity. 
+The application follows a full-stack approach, with MongoDB as the database to store user tasks, and EJS for rendering dynamic content on the front end. Node.js and Express.js handle the backend logic, and all interactions with the database are facilitated through RESTful APIs."
