@@ -1,0 +1,18 @@
+<%layout("./layout.ejs")%>
+
+<div class="offset-3 mt-5">
+<h3>Edit Task</h3>
+<br>
+
+<form action="/edit/<%= task._id %>" method="POST">
+  <div class="mb-3 col-7">
+    <label for="enterTask" class="form-label">Enter Task Title</label>
+  <input type="text" name="title" class="form-control" value="<%= task.title %>" required>
+</div>
+<div class="mb-3 col-7">
+  <label for="enterTask" class="form-label">Enter Task Description</label>
+  <textarea name="description"  class="form-control"><%= task.description %></textarea>
+</div>
+  <button type="submit" class="btn btn-outline-success">Save Changes</button>
+</form>
+</div>
